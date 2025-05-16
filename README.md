@@ -1,15 +1,11 @@
 # 🍹 Cocktail Advisor Chat 
 
-### Thought Process & Key Decisions
-
-- **Cocktails Information**: All relevant fields from the cocktail dataset are used using `Chroma` with `mxbai-embed-large` embeddings. 
-
-- **User Preferences**: User preferences prompt is identified with following words `like`, `love`, `favourite`. A separate Chroma collection `memory_db` is used to store user preferences. Preferences info is passed only if prompt contains `preferences_keywords`
-
 ### Results
 
 - The system answers questions about cocktails based on provided data.
 - It also considers user preferences and stores them for future use.
+- All relevant fields from the cocktail dataset are used using `Chroma` with `mxbai-embed-large` embeddings.
+- User preferences prompt is identified with following words `like`, `love`, `favourite`. A separate Chroma collection `memory_db` is used to store user preferences. Preferences info is passed only if prompt contains `preferences_keywords`
 
 ---
 
