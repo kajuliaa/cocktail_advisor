@@ -17,7 +17,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/cocktail-advisor.git
+git clone https://github.com/kajuliaa/cocktail_advisor.git
 cd cocktail-advisor
 ```
 
