@@ -18,7 +18,7 @@
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/kajuliaa/cocktail_advisor.git
-cd cocktail-advisor
+cd cocktail_advisor
 ```
 
 ---
